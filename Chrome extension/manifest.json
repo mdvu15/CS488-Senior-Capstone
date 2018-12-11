@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Political Bias Analyzer",
+    "version": "1.0",
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "page_action": {
+        "default_title": "Political Bias Analyzer",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "tabs",
+        "nativeMessaging",
+        "<all_urls>"
+    ]
+}
